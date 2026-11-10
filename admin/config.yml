@@ -1,7 +1,7 @@
 # Change REPLACE_WITH_GITHUB_USERNAME to your GitHub username before logging in.
 backend:
   name: github
-  repo: aaronrule29/vybz-media-site
+  repo: aaronrule29-dev/vybz-media-site
   branch: main
 media_folder: assets/uploads
 public_folder: /assets/uploads

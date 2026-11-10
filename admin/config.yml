@@ -1,0 +1,47 @@
+# Change REPLACE_WITH_GITHUB_USERNAME to your GitHub username before logging in.
+backend:
+  name: github
+  repo: REPLACE_WITH_GITHUB_USERNAME/vybz-media-site
+  branch: main
+media_folder: assets/uploads
+public_folder: /assets/uploads
+publish: true
+collections:
+  - name: website
+    label: Website Editor
+    files:
+      - name: homepage
+        label: Homepage, Portfolio & Services
+        file: content/site.json
+        format: json
+        fields:
+          - {label: Hero Heading (HTML allowed), name: hero_title, widget: text}
+          - {label: Hero Description, name: hero_subtitle, widget: text}
+          - {label: Portfolio Heading (HTML allowed), name: work_title, widget: string}
+          - {label: Portfolio Introduction, name: work_intro, widget: text}
+          - {label: Services Heading (HTML allowed), name: services_title, widget: string}
+          - {label: About Heading (HTML allowed), name: about_title, widget: string}
+          - {label: About Introduction, name: about_intro, widget: text}
+          - {label: Contact Heading (HTML allowed), name: contact_title, widget: string}
+          - {label: Contact Description, name: contact_intro, widget: text}
+          - {label: Instagram URL, name: instagram_url, widget: string}
+          - label: Portfolio Projects
+            name: projects
+            widget: list
+            summary: '{{fields.title}} — {{fields.type}}'
+            fields:
+              - {label: Project Title, name: title, widget: string}
+              - {label: Brand / Client, name: client, widget: string}
+              - {label: Project Category, name: type, widget: string}
+              - {label: Project Image, name: image, widget: image, required: false}
+              - {label: Image Description, name: alt, widget: string, required: false}
+              - {label: Feature Large, name: featured, widget: boolean, default: false}
+              - {label: Project Link (optional), name: url, widget: string, required: false}
+              - {label: Status, name: status, widget: select, options: ['Published', 'Coming soon'], default: Published}
+          - label: Services
+            name: services
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - {label: Service Name, name: title, widget: string}
+              - {label: Description, name: description, widget: text}

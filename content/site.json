@@ -1,0 +1,72 @@
+{
+  "hero_title": "WE MAKE<br>BRANDS <em>HARD</em><br>TO IGNORE<span class=\"accent\">.</span>",
+  "hero_subtitle": "Identity, campaigns and digital creative for businesses ready to stand out.",
+  "work_title": "SELECTED <span class=\"outline\">WORK</span><span class=\"accent\">.</span>",
+  "work_intro": "Campaign concepts and independent creative work. Built to demonstrate what’s possible.",
+  "services_title": "BUILT TO <span class=\"accent\">STAND OUT.</span>",
+  "about_title": "SMALL STUDIO.<br><span class=\"accent\">BIG IDEAS.</span>",
+  "about_intro": "VYBZ MEDIA is an independent creative studio bringing together design, storytelling and digital thinking.",
+  "contact_title": "GOT A BRAND<br>IN MIND<span>?</span>",
+  "contact_intro": "Tell us what you’re building. Let’s make something worth noticing.",
+  "instagram_url": "https://www.instagram.com/vybzmedia_/",
+  "projects": [
+    {
+      "title": "RUN FURTHER",
+      "client": "NIKE",
+      "type": "UNOFFICIAL CAMPAIGN CONCEPT",
+      "image": "/assets/nike-run-further.webp",
+      "alt": "Nike running shoe spec campaign",
+      "featured": true,
+      "url": "",
+      "status": "Published"
+    },
+    {
+      "title": "BEYOND THE PITCH",
+      "client": "NIKE FOOTBALL",
+      "type": "UNOFFICIAL CONCEPT",
+      "image": "/assets/nike-football.webp",
+      "alt": "Nike football spec campaign",
+      "featured": false,
+      "url": "",
+      "status": "Published"
+    },
+    {
+      "title": "FORGE PERFORMANCE",
+      "client": "FORGE",
+      "type": "FITNESS BRAND CONCEPT / IN DEVELOPMENT",
+      "image": "",
+      "alt": "",
+      "featured": false,
+      "url": "",
+      "status": "Coming soon"
+    },
+    {
+      "title": "ATHENA CLOTHING",
+      "client": "ATHENA",
+      "type": "FASHION CREATIVE / COMING SOON",
+      "image": "",
+      "alt": "",
+      "featured": false,
+      "url": "",
+      "status": "Coming soon"
+    }
+  ],
+  "services": [
+    {
+      "title": "BRAND IDENTITY",
+      "description": "Logos, visual systems, art direction and brand assets that make an impression."
+    },
+    {
+      "title": "CREATIVE CAMPAIGNS",
+      "description": "Scroll-stopping campaign concepts, advertising graphics and product visuals."
+    },
+    {
+      "title": "SOCIAL CONTENT",
+      "description": "Social-first design, short-form edits and coordinated content packs."
+    },
+    {
+      "title": "WEB & DIGITAL",
+      "description": "Responsive landing pages and digital experiences that give your brand a home."
+    }
+  ]
+}
